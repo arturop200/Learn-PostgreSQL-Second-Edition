@@ -16,4 +16,4 @@ services:
       SERVER_NAME: 'pg_standalone'
     volumes:
       - ./init:/docker-entrypoint-initdb.d/
-      - ~/LearnPostgreSQL/docker-vols/chapter06:/postgres/16/data
+      - /home/arturop/LearnPostgreSQL/docker-vols/chapter06:/postgres/16/data
